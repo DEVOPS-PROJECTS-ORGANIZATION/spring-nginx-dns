@@ -25,3 +25,7 @@ Position yourself in the folder where `docker-compose.yml` is
 ```
 cd DOCKER-COMPOSE_FILE_PATH
 ```
+Mapping environment variables from the environment file to the docker-compose.yml file (Check how your docker-compose.yml will finally look like, after environment variables substitution)
+```
+docker-compose --env-file .env config
+```
