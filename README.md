@@ -17,3 +17,11 @@ In order to destroy infrastructure run the following command:
 docker-compose down -v
 ```
 # spring-nginx-dns Instructions
+**Start Docker Daemon:** If you're using Docker for Windows, Then simply start the desktop app installed in:
+```
+C:\Program Files\Docker\Docker\Docker Desktop.exe
+```
+Position yourself in the folder where dockerfile is
+```
+cd DOCKERFILE_PATH
+```
