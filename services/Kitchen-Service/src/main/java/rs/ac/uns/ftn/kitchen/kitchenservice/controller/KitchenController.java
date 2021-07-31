@@ -26,7 +26,7 @@ public class KitchenController {
     @GetMapping("/hello")
     public ResponseEntity<?> get() throws UnknownHostException {
         String ip = InetAddress.getLocalHost().getHostAddress();
-        return new ResponseEntity<>(String.format("Hello from service with ip address %s!", ip), HttpStatus.OK);
+        return new ResponseEntity<>(String.format("Hello from kitchen service with ip address %s!", ip), HttpStatus.OK);
     }
 
     @PostMapping("/verify/{restaurantId}")
