@@ -16,3 +16,4 @@ In order to destroy infrastructure run the following command:
 ```
 docker-compose down -v
 ```
+# spring-nginx-dns Instructions
