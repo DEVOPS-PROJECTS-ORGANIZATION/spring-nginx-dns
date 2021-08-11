@@ -29,7 +29,7 @@ docker-compose down -v
 C:\Program Files\Docker\Docker\Docker Desktop.exe
 ```
 Position yourself using **Command Line Interface (CLI)** in the folder where `docker-compose.yml` file is:
-```shell
+```
 cd DOCKER-COMPOSE_FILE_PATH
 ```
 Mapping environment variables from the environment file to the docker-compose.yml file (Check how your docker-compose.yml will finally look like, after environment variables substitution)
