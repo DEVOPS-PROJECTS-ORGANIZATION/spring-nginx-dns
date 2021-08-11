@@ -105,8 +105,12 @@ http://localhost:9001/h2-console
 ```
 JDBC URL:jdbc:h2:mem:myDb → paste jdbc:h2:mem:myDb  → Test Connection  → Connect → Click ORDER table → Run
 ```
+**Kitchen-Service** H2 In-Memory Database
 ```
 http://localhost:9002/h2-console
+```
+```
+JDBC URL:jdbc:h2:mem:myDb → paste jdbc:h2:mem:myDb  → Test Connection  → Connect → Click TICKET table → Run
 ```
 To destroy infrastructure run the following command in **Git Bash**:
 ```shell
