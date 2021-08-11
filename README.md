@@ -80,7 +80,15 @@ Fill H2 In-Memory Database with data using shell script. Run the following comma
 ```
 ./web_requests.sh
 ```
-
+Request:
+```GET http://localhost:8080/api/consumer/verify/1```  
+```
+http://localhost:8080/api/consumer/verify/1
+```
+Response:
+```
+true
+```
 To destroy infrastructure run the following command in **Git Bash**:
 ```shell
 docker-compose down -v
