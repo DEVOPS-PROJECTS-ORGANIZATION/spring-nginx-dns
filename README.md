@@ -78,8 +78,9 @@ Hello from order service with ip address 172.18.0.2!
 ```
 Fill H2 In-Memory Database with data using shell script. Run the following command in **Git Bash**
 ```
-web_requests.sh
+./web_requests.sh
 ```
+
 To destroy infrastructure run the following command in **Git Bash**:
 ```shell
 docker-compose down -v
