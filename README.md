@@ -2,7 +2,7 @@
 * Microservices-architecture (Spring Boot - Java Framework)
 * Platform-Provided Service Discovery (Deployment infrastructure take care of service discovery)
 * Service-discovery (Docker-DNS)
-* API-gateway (nginx)
+* API-gateway (NGINX)
 # Microservices Demo
 
 Restaurant application implemented in spring boot framework. NGINX is used as
