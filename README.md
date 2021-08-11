@@ -89,7 +89,7 @@ Response:
 ```
 true
 ```
-Check if data is added to H2 In-Memory Database using the H2 dashboard
+Check if data is added to H2 In-Memory Database using the **H2 dashboard**
 ```
 http://localhost:9000/h2-console
 ```
