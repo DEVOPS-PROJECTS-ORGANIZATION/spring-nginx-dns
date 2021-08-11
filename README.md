@@ -2,9 +2,11 @@
 * Docker  
 * Docker Compose
 * Microservices-architecture (Spring Boot - Java Framework)
+* H2 In-Memory Database
 * Platform-Provided Service Discovery (Deployment infrastructure take care of service discovery)
 * Service-discovery (Docker-DNS)
 * API-gateway (NGINX)
+* 
 # Microservices Demo
 
 Restaurant application implemented in spring boot framework. NGINX is used as
@@ -73,6 +75,10 @@ http://localhost:8080/api/order/hello
 Response:
 ```
 Hello from order service with ip address 172.18.0.2!
+```
+Fill H2 In-Memory Database with data using shell script. Run the following command in **Git Bash**
+```
+web_requests.sh
 ```
 To destroy infrastructure run the following command in **Git Bash**:
 ```shell
