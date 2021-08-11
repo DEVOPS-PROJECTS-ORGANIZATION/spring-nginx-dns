@@ -28,7 +28,7 @@ docker-compose down -v
 ```shell
 C:\Program Files\Docker\Docker\Docker Desktop.exe
 ```
-Position yourself using **Command Line Interface (CLI)** in the folder where `docker-compose.yml` file is:
+Position yourself using **Git Bash** in the folder where `docker-compose.yml` file is:
 ```
 cd DOCKER-COMPOSE_FILE_PATH
 ```
@@ -36,7 +36,7 @@ Mapping environment variables from the environment file to the docker-compose.ym
 ```shell
 docker-compose --env-file .env config
 ```
-To set up infrastructure run the following command:
+To set up infrastructure run the following command in **Git Bash**:
 ```shell
 docker-compose up --build
 ```
@@ -56,7 +56,7 @@ Response:
 ```
 Hello from consumer service with ip address 172.18.0.3!
 ```
-To destroy infrastructure run the following command:
+To destroy infrastructure run the following command in **Git Bash**:
 ```shell
 docker-compose down -v
 ```
