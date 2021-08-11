@@ -34,3 +34,7 @@ Mapping environment variables from the environment file to the docker-compose.ym
 ```
 docker-compose --env-file .env config
 ```
+To set up infrastructure run the following command:
+```
+docker-compose up --build
+```
