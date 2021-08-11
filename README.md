@@ -45,3 +45,7 @@ docker-compose ps
 ```
 docker ps
 ```
+To destroy infrastructure run the following command:
+```
+docker-compose down -v
+```
