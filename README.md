@@ -21,7 +21,7 @@ docker-compose down -v
 ```
 C:\Program Files\Docker\Docker\Docker Desktop.exe
 ```
-Position yourself in the folder where `docker-compose.yml` is
+Position yourself using **Command Line Interface (CLI)** in the folder where `docker-compose.yml` file is:
 ```
 cd DOCKER-COMPOSE_FILE_PATH
 ```
