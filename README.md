@@ -1,3 +1,8 @@
+# Repository Summary
+* Microservices-architecture (Spring Boot - Java Framework)
+* Platform-Provided Service Discovery (Deployment infrastructure take care of service discovery)
+* Service-discovery (Docker-DNS)
+* API-gateway (NGINX)
 # Microservices Demo
 
 Restaurant application implemented in spring boot framework. NGINX is used as
@@ -21,7 +26,15 @@ docker-compose down -v
 ```
 C:\Program Files\Docker\Docker\Docker Desktop.exe
 ```
-Position yourself in the folder where `docker-compose.yml` is
+Position yourself using **Command Line Interface (CLI)** in the folder where `docker-compose.yml` file is:
 ```
 cd DOCKER-COMPOSE_FILE_PATH
+```
+Mapping environment variables from the environment file to the docker-compose.yml file (Check how your docker-compose.yml will finally look like, after environment variables substitution)
+```
+docker-compose --env-file .env config
+```
+To set up infrastructure run the following command:
+```
+docker-compose up --build
 ```
