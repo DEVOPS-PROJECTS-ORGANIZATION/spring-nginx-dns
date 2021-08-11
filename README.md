@@ -89,6 +89,16 @@ Response:
 ```
 true
 ```
+Check if data is added to H2 In-Memory Database using the H2 dashboard
+```
+http://localhost:9000/h2-console
+```
+```
+http://localhost:9001/h2-console
+```
+```
+http://localhost:9002/h2-console
+```
 To destroy infrastructure run the following command in **Git Bash**:
 ```shell
 docker-compose down -v
