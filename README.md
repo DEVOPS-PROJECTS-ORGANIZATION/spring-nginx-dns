@@ -47,6 +47,15 @@ docker-compose ps
 ```shell
 docker ps
 ```
+Request:
+```GET http://localhost:8080/api/consumer/hello```  
+```
+http://localhost:8080/api/consumer/hello
+```
+Response:
+```
+Hello from consumer service with ip address 172.18.0.3!
+```
 To destroy infrastructure run the following command:
 ```shell
 docker-compose down -v
