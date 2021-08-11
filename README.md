@@ -1,7 +1,8 @@
 # Repository Summary
 * Microservices-architecture
 * Platform-Provided Service Discovery (Deployment infrastructure take care of service discovery)
-* 
+* Service-discovery (Docker-dns)
+* API-gateway (nginx)
 # Microservices Demo
 
 Restaurant application implemented in spring boot framework. NGINX is used as
