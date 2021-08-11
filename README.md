@@ -1,6 +1,6 @@
 # Repository Summary
 * microservices-architecture
-* Platform-Provided Service Discovery
+* Platform-Provided Service Discovery (Deployment infrastructure take care of service discovery)
 * 
 # Microservices Demo
 
