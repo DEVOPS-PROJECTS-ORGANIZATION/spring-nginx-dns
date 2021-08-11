@@ -38,3 +38,10 @@ To set up infrastructure run the following command:
 ```
 docker-compose up --build
 ```
+Docker-compose services/containers listing (one service one container)
+```
+docker-compose ps
+```
+```
+docker ps
+```
