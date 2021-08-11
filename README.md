@@ -1,5 +1,5 @@
 # Repository Summary
-* Microservices-architecture
+* Microservices-architecture (Spring Boot - Java Framework)
 * Platform-Provided Service Discovery (Deployment infrastructure take care of service discovery)
 * Service-discovery (Docker-DNS)
 * API-gateway (nginx)
