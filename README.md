@@ -1,5 +1,7 @@
 # Repository Summary
 * microservices-architecture
+* Platform-Provided Service Discovery
+* 
 # Microservices Demo
 
 Restaurant application implemented in spring boot framework. NGINX is used as
