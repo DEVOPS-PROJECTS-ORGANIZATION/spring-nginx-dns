@@ -90,8 +90,12 @@ Response:
 true
 ```
 Check if data is added to H2 In-Memory Database using the **H2 dashboard**
+**Consumer-Service** H2 In-Memory Database
 ```
 http://localhost:9000/h2-console
+```
+```
+JDBC URL:jdbc:h2:mem:myDb → paste jdbc:h2:mem:myDb  → Test Connection  → Connect 
 ```
 ```
 http://localhost:9001/h2-console
