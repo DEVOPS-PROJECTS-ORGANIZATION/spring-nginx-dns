@@ -1,7 +1,7 @@
 # Repository Summary
 * Microservices-architecture
 * Platform-Provided Service Discovery (Deployment infrastructure take care of service discovery)
-* Service-discovery (Docker-dns)
+* Service-discovery (Docker-DNS)
 * API-gateway (nginx)
 # Microservices Demo
 
