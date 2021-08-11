@@ -56,6 +56,24 @@ Response:
 ```
 Hello from consumer service with ip address 172.18.0.3!
 ```
+Request:
+```GET http://localhost:8080/api/kitchen/hello```  
+```
+http://localhost:8080/api/kitchen/hello
+```
+Response:
+```
+Hello from kitchen service with ip address 172.18.0.4!
+```
+Request:
+```GET http://localhost:8080/api/order/hello```  
+```
+http://localhost:8080/api/order/hello
+```
+Response:
+```
+Hello from order service with ip address 172.18.0.2!
+```
 To destroy infrastructure run the following command in **Git Bash**:
 ```shell
 docker-compose down -v
