@@ -7,6 +7,7 @@
 * Platform-Provided Service Discovery (Deployment infrastructure take care of service discovery)
 * Service-discovery (Docker-DNS)
 * API-gateway (NGINX)
+* Using NGINX in the backend as a reverse proxy
 * Shell Scripting
 # Microservices Demo
 
